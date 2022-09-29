@@ -1,0 +1,297 @@
+/* =======================================================
+    Template Name: daniels
+    Created By: yeahiea khan
+    Envato Profile: https://themeforest.net/
+    Website: 
+    Version: 1.0.0
+    Support: 
+========================================================= */
+
+
+
+/* 
+====================================
+[ CSS TABLE CONTENT ]
+------------------------------------
+    1.0 - General
+    2.0 - Typography
+    3.0 - Nav bar
+    4.0 - Header Area
+    5.0 - Service Area
+    6.0 - Works Area
+    7.0 - Testimonial Area
+    8.0 - Team Area
+    9.0 - Blog Area
+    10.0 - Clients Area
+    11.0 - Contact Area
+    12.0 - Footer Area
+   
+-------------------------------------
+[ END CSS TABLE CONTENT ]
+===================================== 
+*/
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-
+	  1.0 General
+=-=-=-=-=-=-=-=-=-=-=-=-= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+	background-color: #fff;
+}
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-
+	  2.0 Typography
+=-=-=-=-=-=-=-=-=-=-=-=-= */
+h1, h2, h3, h4, h5, h6 {
+	color: #000;
+}
+h1{
+	font-size: 40px;
+}
+h2{
+	font-size: 35px;
+}
+h3{
+	font-size: 30px;
+}
+h4{
+	font-size: 25px;
+}
+h5{
+	font-size: 20px;
+}
+h6{
+	font-size: 18px;
+}
+p{
+	font-size: 20px;
+	color: #ddd;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-2.0 Typography end-=-=-=-=-=-=-=-=-=-=-=-= */
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-3.0 Header strat-=-=-=-=-=-=-=-=-=-=-=-= */
+.header-section {
+    background: #878383;
+}
+.logo {
+    display: inline-block;
+}
+.logo h6 {
+    color: #fff;
+    margin-top: 17px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    
+}
+
+nav ul li {
+    margin: 10px 30px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+   
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+nav ul li a::after{
+    position: absolute;
+    content: '';
+}
+nav ul li a::after {
+    position: absolute;
+    content: '';
+    background: red;
+    height: 2px;
+    width: 0;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+   
+} 
+
+
+
+
+
+
+.icon-1,
+    .icon-2,
+    .icon-3{
+        height: 5px;
+        width: 35px;
+        margin: 6px 0px;
+        transition: .5s;
+        display: block;
+        background-color: #fff;
+        
+    }
+    .change .icon-1{
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+    }
+    .change .icon-2{
+        opacity: 0;
+    }
+    .change .icon-3{
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+    }
+
+    .nav-list ol {
+        list-style: none;
+    }
+    
+
+    
+    .nav-list ol li a {
+        text-decoration: none;
+        font-size: 20px;
+        display: flex;
+    }
+    
+    section.slider-section {
+        position: relative;
+    }
+    
+    .nav-list {
+        height: 100vh;
+        width: 20%;
+        background: #222;
+        position: absolute;
+        top: 0;
+        left:-20%;
+        transition: .5s;
+    }
+    .navShow{
+        height: 100vh;
+        width: 20%;
+        background: #222;
+        position: absolute;
+        top: 0;
+        left:0;
+        transition: .5s;
+    }
+    ol li ul {
+        list-style: none;
+        background: #ddd;
+        margin-left: -35px;
+        display: none;
+    }
+    .dropDown{
+        list-style: none;
+        background: #ddd;
+        margin-left: -35px;
+        display: block;
+    }
+    .slide-icon {
+        margin-left: 102px;
+        display: block;
+        width: 200px;
+        /* margin: auto; */
+        text-align: center;
+    }
+   
+   
+   
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-3.0 Header end-=-=-=-=-=-=-=-=-=-=-=-= */
+
+
+
+
+
+
+
+
+
+
+.items-img {
+    max-width: 400px;
+}
+
+.items-img img {
+    width: 100%;
+}
+
+.item {
+    display: flex;
+}
+
+.items-dec h2 {
+    font-size: 20px;
+}
+
+.items-dec {
+    margin-top: 54px;
+}
+
+section.woo-commerse {
+    padding: 100px 0px;
+}
+
+.items-icons {
+    display: flex;
+    width: 200px;
+    margin-top: 50px;
+}
+
+input[type="number\/text"] {
+    width: 38px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button {
+    padding: 5px 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: none;
+    background: #fb5200;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    width: 50px;
+}
+
+
+
+table {
+    height: 244px;
+}
+
+tbody tr td {
+    font-size: 20px;
+    text-align: revert;
+    border-bottom: 2px solid darkgoldenrod;
+}
+
+
+
+span {margin-left: 110px;}
+
+.items-price h5 {
+    margin-top: 50px;
+}

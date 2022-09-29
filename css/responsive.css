@@ -1,0 +1,54 @@
+/* @media(max-width:991px){
+    .header-section{
+        position: relative;
+    }
+    nav{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: gray;
+        width: 0;
+        height: 700px;
+        display: block;
+        transition: .5s;
+    }
+    nav ul{
+        display: block;
+    }
+    
+    .mobile{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: gray;
+        width: 50%;
+        height: 700px;
+        display: block;
+        transition: .5s;
+    }
+    ul li a{
+        margin-right:40px;
+    }
+    .icon-1,
+    .icon-2,
+    .icon-3{
+        height: 5px;
+        width: 35px;
+        margin: 6px 0px;
+        transition: .5s;
+        display: block;
+        background-color: #fff;
+    }
+    .change .icon-1{
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+    }
+    .change .icon-2{
+        opacity: 0;
+    }
+    .change .icon-3{
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+    }
+
+} */

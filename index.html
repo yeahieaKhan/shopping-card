@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+        http://innovationplans.com/idesign/daniels/creative.html#0
+    -->
+    <title>This is my secend website</title>
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--style css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--responsive css-->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<!--------------------------------------------nav section---------------------------------->
+    <header class="header-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <div class="logo">
+                        <h6>YEAHIEA KHAN</h6>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-6">
+                     <nav id="topBar">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Service</a></li>
+                            <li><a href="#">Work</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <div class="menu-icon" onclick="changeIcon(this)">
+                                <div class="mobile-menu" id="mobileMneu">
+                                    <div class="icon-1"></div>
+                                    <div class="icon-2"></div>
+                                    <div class="icon-3"></div>
+                                </div>
+        
+                            </div>
+                        </ul>
+                    </nav>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="slider-section">
+        <div class="nav-list" id="slideNav">
+            <ol>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Servicers
+                    <div class="slide-icon" id="submenuIcon">
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </div>
+                </a>
+                   
+                    <ul id="submenShow">
+                        <li><a href="#">web design</a></li>
+                        <li><a href="#">web design</a></li>
+                        <li><a href="#">web design</a></li>
+                        <li><a href="#">web design</a></li>
+                        <li><a href="#">web design</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="#">work</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">contacet</a></li>
+            </ol>
+        </div>
+        
+       
+        
+    </section>
+
+    <section class="woo-commerse">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="item">
+                        <div class="items-img">
+                            <img src="images/p1.jpeg" alt="">
+                        </div>
+                        <div class="items-dec">
+                            <h2>
+                                Boya BY-M1PRO Universal Lavalier Mirophone With Audio Output Port</h2>
+                        </div>
+                        <div class="items-number">
+                            <div class="items-icons">
+                                <button class="items-plus" onclick="incresment('count','price',)">
+                                    <i class="fa-sharp fa-solid fa-plus" ></i>
+                                </button>
+                                <input type="number/text" value="1" id="count">
+                                <button class="items-minus" onclick="decriment('count', 'price')">
+                                    <i class="fa-solid fa-minus"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="items-price">
+                            <h5>TK <b id="price">550</span></b>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="checkput">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td >Subtotal</td>
+                                    <td><span id="Subtotal">00</span></td>
+                                </tr>
+                                <tr>
+                                    <td id="vat">Shipping Vat</td>
+                                    <td><span>50</span></td>
+                                </tr>
+                                <tr>
+                                    <td id="totalP">Total</td>
+                                    <td><span>00</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="item">
+                        <div class="items-img">
+                            <img src="images/p1.jpeg" alt="">
+                        </div>
+                        <div class="items-dec">
+                            <h2>
+                                Boya BY-M1PRO Universal Lavalier Mirophone With Audio Output Port</h2>
+                        </div>
+                        <div class="items-number">
+                            <div class="items-icons">
+                                <button class="items-plus" onclick="incresment('count1','price1')">
+                                    <i class="fa-sharp fa-solid fa-plus" ></i>
+                                </button>
+                                <input type="number/text" value="1" id="count1">
+                                <button class="items-minus" onclick="decriment('count1', 'price1')">
+                                    <i class="fa-solid fa-minus"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="items-price">
+                            <h5>TK <b id="price1">1200</span></b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/fontawesome.min.js"></script>
+    <script src="js/all.min.js"></script>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
